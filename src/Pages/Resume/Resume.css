@@ -86,3 +86,27 @@
   margin-top: 6px;
   line-height: 1.6;
 }
+
+.cv-download {
+  text-decoration: none;
+  background: #ffecb70a;
+  color: #ffecb7;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 12px;
+  display: inline-flex;
+  margin-left: 15px;
+}
+.cv-download svg {
+  margin-right: 5px;
+  font-size: 18px;
+}
+.cv-download span {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
