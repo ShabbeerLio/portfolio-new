@@ -1,0 +1,88 @@
+.resume-section {
+  margin-top: 30px;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.section-title svg {
+  background: linear-gradient(#373737, #373737) padding-box,
+    linear-gradient(120deg, #5d5d5d, #2c2c2c) border-box;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  padding: 5px;
+  font-size: 30px;
+  background-color: #373737;
+  color: #ffecb7;
+  position: relative;
+  z-index: 9;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 10px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: -15px;
+  bottom: 0;
+  width: 1px;
+  height: 80%;
+  background: #ffecb7;
+}
+
+.timeline-item {
+  display: flex;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background: #ffecb7;
+  border-radius: 50%;
+  position: absolute;
+  left: 1px;
+  top: 6px;
+}
+.dot:before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background: #ffecb786;
+  border-radius: 50%;
+  position: absolute;
+  left: -3px;
+  top: -3px;
+}
+
+.content {
+  margin-left: 30px;
+  background: transparent;
+}
+
+.content h3 {
+  font-size: 16px;
+  margin-bottom: 4px;
+  color: white;
+}
+
+.content span {
+  font-size: 13px;
+  color: #ffecb7;
+}
+
+.content p {
+  font-size: 14px;
+  color: #bdbdbd;
+  margin-top: 6px;
+  line-height: 1.6;
+}
