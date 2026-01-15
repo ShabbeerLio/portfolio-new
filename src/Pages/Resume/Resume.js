@@ -3,7 +3,7 @@ import "./Resume.css"
 import { FaBookOpen } from 'react-icons/fa'
 import { MdOutlineWork } from 'react-icons/md'
 import { IoCloudDownloadOutline } from 'react-icons/io5'
-import ResumeFile from "../../Assets/resume.pdf"
+import ResumeFile from "../../Assets/shabbeer-resume.pdf"
 
 const Resume = () => {
     return (
